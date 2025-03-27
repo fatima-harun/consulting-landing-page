@@ -1,35 +1,32 @@
-# Consulting Landing Page
+Landing Page pour une entreprise de consultance (FICTIVE)
+Aperçu
+Ce projet est une landing page pour une entreprise de consultance fictive. Il est conçu pour fournir des informations sur les services proposés, présenter des témoignages clients et inciter les clients potentiels à prendre contact. Tout le contenu de cette page est entièrement fictif.
 
-## Overview
-This project is a landing page for a consulting company. It is designed to provide information about the services offered, showcase client testimonials, and encourage potential clients to get in touch.
+Structure du projet
+graphql
+Copier
+Modifier
+consulting-landing-page  
+├── src  
+│   ├── index.html        # Document HTML principal de la landing page  
+│   ├── css  
+│   │   └── styles.css    # Feuille de styles pour la landing page  
+│   ├── js  
+│   │   └── scripts.js     # JavaScript pour les interactions  
+├── assets  
+│   ├── fonts             # Fichiers de polices personnalisées  
+│   └── images            # Fichiers d'images pour la landing page  
+└── README.md             # Documentation du projet  
+Instructions d'installation
+Cloner le dépôt sur votre machine locale.
 
-## Project Structure
-```
-consulting-landing-page
-├── src
-│   ├── index.html        # Main HTML document for the landing page
-│   ├── css
-│   │   └── styles.css    # Styles for the landing page
-│   ├── js
-│   │   └── scripts.js     # JavaScript for interactivity
-├── assets
-│   ├── fonts             # Custom font files
-│   └── images            # Image files for the landing page
-└── README.md             # Project documentation
-```
+Accéder au répertoire du projet.
 
-## Setup Instructions
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Open `src/index.html` in a web browser to view the landing page.
+Ouvrir src/index.html dans un navigateur web pour afficher la landing page.
 
-## Features
-- Responsive design that adapts to various screen sizes.
-- Interactive elements powered by JavaScript.
-- Custom fonts and images to enhance visual appeal.
+Fonctionnalités
+Design responsive s'adaptant à différentes tailles d'écran.
 
-## Contributing
-Feel free to submit issues or pull requests if you have suggestions for improvements or new features. 
+Éléments interactifs propulsés par JavaScript.
 
-## License
-This project is licensed under the MIT License.
+Polices et images personnalisées pour un meilleur rendu visuel.
