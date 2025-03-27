@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services de conseil professionnels pour développer votre entreprise.">
+    <title>Consulting Pro| Solutions Business Modernes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">ConsultPro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipe">Équipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#temoignages">Témoignages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#partenaires">Nos Partenaires</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section d-flex align-items-center position-relative pt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Transformez votre entreprise avec nos solutions innovantes</h1>
+                    <p class="lead mb-4">Nous vous accompagnons dans votre croissance avec des stratégies personnalisées et des solutions adaptées à vos besoins.</p>
+                    <a href="#contact" class="btn btn-primary btn-lg mb-5">Commencer maintenant</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img\group.jpg" alt="Hero Image" class="hero-image ms-4">
+                </div>
+            </div>
+        </div>
+        <!-- Waves SVG -->
+        <div class="position-absolute bottom-0 start-0 w-100 overflow-hidden">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+                <defs>
+                    <path id="wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="wave-group">
+                    <use href="#wave" x="48" y="0" fill="rgba(116, 185, 255, 0.1)" />
+                    <use href="#wave" x="48" y="3" fill="rgba(116, 185, 255, 0.15)" />
+                    <use href="#wave" x="48" y="5" fill="rgba(116, 185, 255, 0.2)" />
+                    <use href="#wave" x="48" y="8" fill="#ffffff" />
+                </g>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Nos Services</h2>
+                <p class="lead text-muted">Des solutions complètes pour votre succès</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                            <h3 class="h5">Stratégie Business</h3>
+                            <p class="text-muted">Développement de stratégies personnalisées pour votre croissance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                            <h3 class="h5">Gestion RH</h3>
+                            <p class="text-muted">Optimisation de vos ressources humaines et développement des talents.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-cogs fa-3x text-primary mb-3"></i>
+                            <h3 class="h5">Transformation Digitale</h3>
+                            <p class="text-muted">Modernisation de vos processus et adoption des nouvelles technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="img\collaborateurs.jpg" alt="About Us" class="img-fluid rounded-3 shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">À propos de nous</h2>
+                    <p class="lead mb-4">Nous sommes une équipe d'experts passionnés par l'innovation et le succès de nos clients.</p>
+                    <p class="text-muted">Depuis plus de 10 ans, nous accompagnons les entreprises dans leur transformation et leur développement. Notre approche personnalisée et nos solutions adaptées font de nous votre partenaire de confiance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="equipe" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Notre Équipe</h2>
+                <p class="lead text-muted">Les experts derrière votre succès</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="img/womanbusiness.jpg" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sophie Sarr</h5>
+                            <p class="text-muted">Directrice Stratégique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="img/blackman.jpg" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Jean Michel Gueye</h5>
+                            <p class="text-muted">Expert en Transformation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="img/voilée.jpg" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Adama Ndiaye</h5>
+                            <p class="text-muted">Consultante RH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="temoignages" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Témoignages</h2>
+                <p class="lead text-muted">Ce que nos clients disent de nous</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="img/partner1.png" alt="Tech Solutions Logo" class="company-logo mb-3">
+                            <h5 class="card-title">Habibou Ndiaye</h5>
+                            <p class="card-text">"Une équipe exceptionnelle qui nous a aidés à transformer notre entreprise."</p>
+                            <p class="text-muted mb-0">CEO, Solo Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="img/logo2.jpg" alt="InnovCorp Logo" class="company-logo mb-3">
+                            <h5 class="card-title">Marie Sène</h5>
+                            <p class="card-text">"Leur expertise a été cruciale dans notre développement."</p>
+                            <p class="text-muted mb-0">Directrice Marketing, InnovCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="img/partner3.png" alt="StartUpX Logo" class="company-logo mb-3">
+                            <h5 class="card-title">Doudou Thiam</h5>
+                            <p class="card-text">"Un accompagnement personnalisé et des résultats remarquables."</p>
+                            <p class="text-muted mb-0">Fondateur, ThinkTech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partenaires Section -->
+    <section id="partenaires" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Nos Partenaires</h2>
+                <p class="lead text-muted">Ils nous font confiance</p>
+            </div>
+            <div class="partner-carousel">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div id="partnerCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row align-items-center justify-content-center g-5">
+                                        <div class="col-md-3 col-6">
+                                            <img src="img/partner1.png" alt="Partenaire 1" class="img-fluid partner-logo">
+                                        </div>
+                                        <div class="col-md-3 col-6">
+                                            <img src="img/partner2.png" alt="Partenaire 2" class="img-fluid partner-logo">
+                                        </div>
+                                        <div class="col-md-3 col-6">
+                                            <img src="img/partner3.png" alt="Partenaire 3" class="img-fluid partner-logo">
+                                        </div>
+                                        <div class="col-md-3 col-6">
+                                            <img src="img/partner4.png" alt="Partenaire 4" class="img-fluid partner-logo">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row align-items-center justify-content-center g-5">
+                                        <div class="col-md-3 col-6">
+                                            <img src="img/partner1.png" alt="Partenaire 5" class="img-fluid partner-logo">
+                                        </div>
+                                        <div class="col-md-3 col-6">
+                                            <img src="img/partner2.png" alt="Partenaire 6" class="img-fluid partner-logo">
+                                        </div>
+                                        <div class="col-md-3 col-6">
+                                            <img src="img/partner3.png" alt="Partenaire 7" class="img-fluid partner-logo">
+                                        </div>
+                                        <div class="col-md-3 col-6">
+                                            <img src="img/partner4.png" alt="Partenaire 4" class="img-fluid partner-logo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Contactez-nous</h2>
+                <p class="lead text-muted">Discutons de votre projet</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <form id="contact-form" class="card shadow-sm p-5 h-100 contact-form">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" required>
+                                    <label for="name"><i class="fas fa-user me-2"></i>Nom</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Votre email" required>
+                                    <label for="email"><i class="fas fa-envelope me-2"></i>Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea id="message" name="message" class="form-control" placeholder="Votre message" style="height: 150px" required></textarea>
+                                    <label for="message"><i class="fas fa-comment-alt me-2"></i>Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center mt-4">
+                                <button type="submit" class="btn btn-primary btn-lg px-5 py-3">
+                                    <i class="fas fa-paper-plane me-2"></i>Envoyer
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body p-0">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15477.875456789012!2d-17.457777777778!3d14.692777777778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172f5f4c1f0a1%3A0x5f1c3f3f3f3f3f3f!2sDakar%2C%20S%C3%A9n%C3%A9gal!5e0!3m2!1sfr!2sfr!4v1648123456789!5m2!1sfr!2sfr" 
+                                width="100%" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-4">
+                    <h5 class="mb-3">ConsultPro</h5>
+                    <p class="text-muted mb-0">Votre partenaire de confiance pour le développement de votre entreprise.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-3">Liens Rapides</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#accueil" class="text-white text-decoration-none">Accueil</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white text-decoration-none">À propos</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-3">Contact</h5>
+                    <ul class="list-unstyled text-white">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Avenue Abdoulaye Fadiga, Dakar, Sénégal</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> +221 77 777 77 77</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> contact@consultpro.sn</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="text-center text-white">
+                <p class="mb-0">&copy; 2025 Fatou Bintou Diop. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
