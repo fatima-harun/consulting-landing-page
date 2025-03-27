@@ -1,11 +1,9 @@
 Landing Page pour une entreprise de consultance (FICTIVE)
-Aperçu
+
+
 Ce projet est une landing page pour une entreprise de consultance fictive. Il est conçu pour fournir des informations sur les services proposés, présenter des témoignages clients et inciter les clients potentiels à prendre contact. Tout le contenu de cette page est entièrement fictif.
 
 Structure du projet
-graphql
-Copier
-Modifier
 consulting-landing-page  
 ├── src  
 │   ├── index.html        # Document HTML principal de la landing page  
